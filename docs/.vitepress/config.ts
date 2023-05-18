@@ -13,7 +13,7 @@ export default defineConfig({
       {
         text: "语言",
         items: [
-          { text: "c++", link: '/c++/C++核心编程' }
+          { text: "c++", link: '/c++/index' },
         ],
       },
       {
@@ -35,21 +35,36 @@ export default defineConfig({
 
 
     sidebar: {
-      "/c++/C++核心编程": [
+      "/c++/": [
         {
           text: "c++",    //标签名字
           //collapsible: true,    //是不是可以动态展开
-          collapsed: true,      //默认是不是展开
+          //collapsed: true,      //默认是不是展开
           items: [              //孩子
-            {
-              text: "c++核心",        //标签名字
-              link: '/c++/C++核心编程',         //链接
-            },
+            { text: "C++核心编程", link: '/c++/C++核心编程', },
+            { text: "C++基础入门", link: '/c++/C++基础入门', },
+            { text: "C++提高编程", link: '/c++/C++提高编程', },
+            { text: "通讯录管理系统", link: '/c++/通讯录管理系统', },
+            { text: "职工管理系统", link: '/c++/职工管理系统', },
+            { text: "机房预约系统", link: '/c++/机房预约系统', },
+            { text: "基于STL的演讲比赛流程管理系统", link: '/c++/基于STL的演讲比赛流程管理系统', },
           ],
         },
       ],
+      "/acwing/": [
+        {
+          text: "acwing",
+          items: [
+            { text: "acwing", link: '/acwing/Acwing', },
+          ]
+        }
+      ],
+    },
 
-    }, outline: 'deep',
+
+
+
+    outline: 'deep',
     outlineTitle: '目录',
 
 

@@ -209,7 +209,7 @@ int main()
 
 注意找右边界时为 **mid = (l+r+1) >> 1**
 
-**<img src="https://gitee.com/newcwc/picture/raw/master/image/dce896653bd1386785664f9e8583cff.jpg" alt="dce896653bd1386785664f9e8583cff" style="zoom: 33%;" />**
+**![dce896653bd1386785664f9e8583cff](assets/dce896653bd1386785664f9e8583cff.jpg)**
 
 ```c
 /*

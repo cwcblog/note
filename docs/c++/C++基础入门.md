@@ -39,7 +39,7 @@ typora-root-url: ./assets
 
 #### 1.1.3 编写代码
 
-```c++
+```c
 #include<iostream>
 using namespace std;
 
@@ -100,7 +100,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 #include<iostream>
 using namespace std;
 
@@ -154,7 +154,7 @@ C++定义常量两种方式
 
 **示例：**
 
-```C++
+```c
 //1、宏常量
 #define day 7
 
@@ -283,7 +283,7 @@ C++中能够表示整型的类型有以下几种方式，**区别在于所占内
 
 **示例：**
 
-```C++
+```c
 int main() {
 
 	cout << "short 类型所占内存空间为： " << sizeof(short) << endl;
@@ -338,7 +338,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 int main() {
 
 	float f1 = 3.14f;
@@ -394,7 +394,7 @@ int main() {
 
 示例：
 
-```C++
+```c
 int main() {
 	
 	char ch = 'a';
@@ -493,7 +493,7 @@ ASCII 码大致由以下**两部分组**成：
 
 示例：
 
-```C++
+```c
 int main() {
 	
 	
@@ -529,7 +529,7 @@ int main() {
 
    示例：
 
-   ```C++
+   ```c
    int main() {
    
    	char str1[] = "hello world";
@@ -547,7 +547,7 @@ int main() {
 
    示例：
 
-   ```C++
+   ```c
    int main() {
    
    	string str = "hello world";
@@ -588,7 +588,7 @@ bool类型只有两个值：
 
 示例：
 
-```C++
+```c
 int main() {
 
 	bool flag = true;
@@ -629,7 +629,7 @@ int main() {
 
 示例：
 
-```C++
+```c
 int main(){
 
 	//整型输入
@@ -713,7 +713,7 @@ int main(){
 
 **示例1：**
 
-```C++
+```c
 //加减乘除
 int main() {
 
@@ -753,7 +753,7 @@ int main() {
 
 **示例2：**
 
-```C++
+```c
 //取模
 int main() {
 
@@ -791,7 +791,7 @@ int main() {
 
 **示例3：**
 
-```C++
+```c
 //递增
 int main() {
 
@@ -854,7 +854,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 int main() {
 
 	//赋值运算符
@@ -920,7 +920,7 @@ int main() {
 
 示例：
 
-```C++
+```c
 int main() {
 
 	int a = 10;
@@ -974,7 +974,7 @@ int main() {
 
 **示例1：**逻辑非
 
-```C++
+```c
 //逻辑运算符  --- 非
 int main() {
 
@@ -998,7 +998,7 @@ int main() {
 
 **示例2：**逻辑与
 
-```C++
+```c
 //逻辑运算符  --- 与
 int main() {
 
@@ -1034,7 +1034,7 @@ int main() {
 
 **示例3：**逻辑或
 
-```c++
+```c
 //逻辑运算符  --- 或
 int main() {
 
@@ -1109,7 +1109,7 @@ if语句的三种形式
 
    示例：
 
-   ```C++
+   ```c
    int main() {
    
    	//选择结构-单行if语句
@@ -1153,7 +1153,7 @@ if语句的三种形式
 
 示例：
 
-```C++
+```c
 int main() {
 
 	int score = 0;
@@ -1199,7 +1199,7 @@ int main() {
 
 示例：
 
-```C++
+```c
 	int main() {
 
 	int score = 0;
@@ -1253,7 +1253,7 @@ int main() {
 
 **示例：**
 
-```c++
+```c
 int main() {
 
 	int score = 0;
@@ -1330,7 +1330,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 int main() {
 
 	int a = 10;
@@ -1370,7 +1370,7 @@ int main() {
 
 **语法：**
 
-```C++
+```c
 switch(表达式)
 
 {
@@ -1395,7 +1395,7 @@ switch(表达式)
 
 **示例：**
 
-```C++
+```c
 int main() {
 
 	//请给电影评分 
@@ -1474,7 +1474,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 int main() {
 
 	int num = 0;
@@ -1540,7 +1540,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 int main() {
 
 	int num = 0;
@@ -1613,7 +1613,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 int main() {
 
 	for (int i = 0; i < 10; i++)
@@ -1691,7 +1691,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 int main() {
 
 	//外层循环执行1次，内层循环执行1轮
@@ -1748,7 +1748,7 @@ break使用的时机：
 
 **示例1：**
 
-```C++
+```c
 int main() {
 	//1、在switch 语句中使用break
 	cout << "请选择您挑战副本的难度：" << endl;
@@ -1783,7 +1783,7 @@ int main() {
 
 **示例2：**
 
-```C++
+```c
 int main() {
 	//2、在循环语句中用break
 	for (int i = 0; i < 10; i++)
@@ -1805,7 +1805,7 @@ int main() {
 
 **示例3：**
 
-```C++
+```c
 int main() {
 	//在嵌套循环语句中使用break，退出内层循环
 	for (int i = 0; i < 10; i++)
@@ -1847,7 +1847,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 int main() {
 
 	for (int i = 0; i < 100; i++)
@@ -1893,7 +1893,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 int main() {
 
 	cout << "1" << endl;
@@ -1982,7 +1982,7 @@ int main() {
 
 示例
 
-```C++
+```c
 int main() {
 
 	//定义方式1
@@ -2057,7 +2057,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 int main() {
 
 	//数组名用途
@@ -2150,7 +2150,7 @@ int main() {
 
 **示例：** 将数组 { 4,2,8,0,5,7,1,3,9 } 进行升序排序
 
-```C++
+```c
 int main() {
 
 	int arr[9] = { 4,2,8,0,5,7,1,3,9 };
@@ -2208,7 +2208,7 @@ int main() {
 
 示例：
 
-```C++
+```c
 int main() {
 
 	//方式1  
@@ -2281,7 +2281,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 int main() {
 
 	//二维数组数组名
@@ -2348,7 +2348,7 @@ int main() {
 
 **参考答案：**
 
-```C++
+```c
 int main() {
 
 	int scores[3][3] =
@@ -2412,7 +2412,7 @@ int main() {
 
 **语法：** 
 
-```C++
+```c
 返回值类型 函数名 （参数列表）
 {
 
@@ -2437,7 +2437,7 @@ int main() {
 
 **示例：**定义一个加法函数，实现两个数相加
 
-```C++
+```c
 //函数定义
 int add(int num1, int num2)
 {
@@ -2464,7 +2464,7 @@ int add(int num1, int num2)
 
 **示例：**
 
-```C++
+```c
 //函数定义
 int add(int num1, int num2) //定义中的num1,num2称为形式参数，简称形参
 {
@@ -2511,7 +2511,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 void swap(int num1, int num2)
 {
 	cout << "交换前：" << endl;
@@ -2568,7 +2568,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 //函数常见样式
 //1、 无参无返
 void test01()
@@ -2623,7 +2623,7 @@ int test04(int a, int b)
 
 **示例：**
 
-```C++
+```c
 //声明可以多次，定义只能一次
 //声明
 int max(int a, int b);
@@ -2670,7 +2670,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 //swap.h文件
 #include<iostream>
 using namespace std;
@@ -2680,7 +2680,7 @@ void swap(int a, int b);
 
 ```
 
-```C++
+```c
 //swap.cpp文件
 #include "swap.h"
 
@@ -2695,7 +2695,7 @@ void swap(int a, int b)
 }
 ```
 
-```C++
+```c
 //main函数文件
 #include "swap.h"
 int main() {
@@ -2742,7 +2742,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 int main() {
 
 	//1、指针的定义
@@ -2801,7 +2801,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 int main() {
 
 	int a = 10;
@@ -2847,7 +2847,7 @@ int main() {
 
 **示例1：空指针**
 
-```C++
+```c
 int main() {
 
 	//指针变量p指向内存地址编号为0的空间
@@ -2881,7 +2881,7 @@ int main() {
 
 **示例2：野指针**
 
-```C++
+```c
 int main() {
 
 	//指针变量p指向内存地址编号为0x1100的空间
@@ -2924,7 +2924,7 @@ const修饰指针有三种情况
 **示例：**
 
 
-```c++
+```c
 int main() {
 
 	int a = 10;
@@ -2970,7 +2970,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 int main() {
 
 	int arr[] = { 1,2,3,4,5,6,7,8,9,10 };
@@ -3011,7 +3011,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 //值传递
 void swap1(int a ,int b)
 {
@@ -3071,7 +3071,7 @@ int main() {
 
 **示例：**
 
-```c++
+```c
 //冒泡排序函数
 void bubbleSort(int * arr, int len)  //int * arr 也可以写为int arr[]
 {
@@ -3145,7 +3145,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 //结构体定义
 struct student
 {
@@ -3210,7 +3210,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 //结构体定义
 struct student
 {
@@ -3263,7 +3263,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 //结构体定义
 struct student
 {
@@ -3314,7 +3314,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 //学生结构体定义
 struct student
 {
@@ -3379,7 +3379,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 //学生结构体定义
 struct student
 {
@@ -3436,7 +3436,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 //学生结构体定义
 struct student
 {
@@ -3492,7 +3492,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 struct Student
 {
 	string name;
@@ -3571,7 +3571,7 @@ int main() {
 
 五名英雄信息如下：
 
-```C++
+```c
 		{"刘备",23,"男"},
 		{"关羽",22,"男"},
 		{"张飞",20,"男"},
@@ -3589,7 +3589,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 //英雄结构体
 struct hero
 {

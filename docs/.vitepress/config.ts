@@ -38,11 +38,10 @@ export default defineConfig({
       "/c++/": [
         {
           text: "c++",    //标签名字
-          //collapsible: true,    //是不是可以动态展开
-          //collapsed: true,      //默认是不是展开
+          collapsible: true,    //是不是可以动态展开
+          collapsed: true,      //默认是不是展开
           items: [              //孩子
             { text: "C++核心编程", link: '/c++/C++核心编程', },
-            { text: "C++基础入门", link: '/c++/C++基础入门', },
             { text: "C++提高编程", link: '/c++/C++提高编程', },
             { text: "通讯录管理系统", link: '/c++/通讯录管理系统', },
             { text: "职工管理系统", link: '/c++/职工管理系统', },
@@ -54,6 +53,8 @@ export default defineConfig({
       "/acwing/": [
         {
           text: "acwing",
+          collapsible: true,    //是不是可以动态展开
+          collapsed: true,      //默认是不是展开
           items: [
             { text: "acwing", link: '/acwing/Acwing', },
           ]

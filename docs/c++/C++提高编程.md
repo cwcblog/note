@@ -26,17 +26,17 @@
 
 
 
-![1547105026929](https://raw.githubusercontent.com/cwcblog/picture/main/img/202209111212648.png)
+![1547105026929](https://cdn.jsdelivr.net/gh/cwcblog/picture@main/img/202209111212648-1684494207418-407.png)
 
 
 
 PPT模板：
 
-![1547103297864](https://raw.githubusercontent.com/cwcblog/picture/main/img/202209111212649.png)
+![1547103297864](https://cdn.jsdelivr.net/gh/cwcblog/picture@main/img/202209111212649-1684494207418-409.png)
 
 
 
-![1547103359158](https://raw.githubusercontent.com/cwcblog/picture/main/img/202209111212651.png)
+![1547103359158](https://cdn.jsdelivr.net/gh/cwcblog/picture@main/img/202209111212651-1684494207419-411.png)
 
 
 
@@ -76,7 +76,7 @@ PPT模板：
 
 **语法：** 
 
-```C++
+```c
 template<typename T>
 函数声明或定义
 ```
@@ -93,7 +93,7 @@ T    ---   通用的数据类型，名称可以替换，通常为大写字母
 
 **示例：**
 
-```C++
+```c
 //交换整型函数
 void swapInt(int& a, int& b) {
 	int temp = a;
@@ -173,7 +173,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 //利用模板提供通用的交换函数
 template<class T>
 void mySwap(T& a, T& b)
@@ -246,7 +246,7 @@ int main() {
 
 示例：
 
-```C++
+```c
 //交换的函数模板
 template<typename T>
 void mySwap(T &a, T&b)
@@ -340,7 +340,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 //普通函数
 int myAdd01(int a, int b)
 {
@@ -407,7 +407,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 //普通函数与函数模板调用规则
 void myPrint(int a, int b)
 {
@@ -479,7 +479,7 @@ int main() {
 
 **例如：**
 
-```C++
+```c
 	template<class T>
 	void f(T a, T b)
 	{ 
@@ -493,7 +493,7 @@ int main() {
 
 再例如：
 
-```C++
+```c
 	template<class T>
 	void f(T a, T b)
 	{ 
@@ -511,7 +511,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 #include<iostream>
 using namespace std;
 
@@ -628,7 +628,7 @@ int main() {
 
 **语法：** 
 
-```c++
+```c
 template<typename T>
 类
 ```
@@ -645,7 +645,7 @@ T    ---   通用的数据类型，名称可以替换，通常为大写字母
 
 **示例：**
 
-```C++
+```c
 #include <string>
 //类模板
 template<class NameType, class AgeType> 
@@ -709,7 +709,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 #include <string>
 //类模板
 template<class NameType, class AgeType = int> 
@@ -787,7 +787,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 class Person1
 {
 public:
@@ -868,7 +868,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 #include <string>
 //类模板
 template<class NameType, class AgeType = int> 
@@ -968,7 +968,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 template<class T>
 class Base
 {
@@ -1034,7 +1034,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 #include <string>
 
 //类模板中成员函数类外实现
@@ -1114,7 +1114,7 @@ int main() {
 
 person.hpp中代码：
 
-```C++
+```c
 #pragma once
 #include <iostream>
 using namespace std;
@@ -1148,7 +1148,7 @@ void Person<T1, T2>::showPerson() {
 
 类模板分文件编写.cpp中代码
 
-```C++
+```c
 #include<iostream>
 using namespace std;
 
@@ -1201,7 +1201,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 #include <string>
 
 //2、全局函数配合友元  类外实现 - 先做函数模板声明，下方在做函数模板定义，在做友元
@@ -1305,7 +1305,7 @@ int main() {
 
 myArray.hpp中代码
 
-```C++
+```c
 #pragma once
 #include <iostream>
 using namespace std;
@@ -1418,7 +1418,7 @@ private:
 
 类模板案例—数组类封装.cpp中
 
-```C++
+```c
 #include "myArray.hpp"
 #include <string>
 
@@ -1645,7 +1645,7 @@ STL中最常用的容器为Vector，可以理解为数组，下面我们将学�
 
 **示例：**
 
-```C++
+```c
 #include <vector>
 #include <algorithm>
 
@@ -1712,7 +1712,7 @@ int main() {
 
 **示例：**
 
-```c++
+```c
 #include <vector>
 #include <string>
 
@@ -1801,7 +1801,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 #include <vector>
 
 //容器嵌套容器
@@ -1896,7 +1896,7 @@ string管理char*所分配的内存，不用担心复制越界和取值越界等
 
 **示例：**
 
-```C++
+```c
 #include <string>
 //string构造
 void test01()
@@ -1959,7 +1959,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 //赋值
 void test01()
 {
@@ -2039,7 +2039,7 @@ int main() {
 **示例：**
 
 
-```C++
+```c
 //字符串拼接
 void test01()
 {
@@ -2111,7 +2111,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 //查找和替换
 void test01()
 {
@@ -2206,7 +2206,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 //字符串比较
 void test01()
 {
@@ -2263,7 +2263,7 @@ string中单个字符存取方式有两种
 
 **示例：**
 
-```C++
+```c
 void test01()
 {
 	string str = "hello world";
@@ -2327,7 +2327,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 //字符串插入和删除
 void test01()
 {
@@ -2378,7 +2378,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 //子串
 void test01()
 {
@@ -2436,7 +2436,7 @@ int main() {
 
 
 
-![说明: 2015-11-10_151152](https://raw.githubusercontent.com/cwcblog/picture/main/img/202209111212652.jpg)
+![说明: 2015-11-10_151152](https://cdn.jsdelivr.net/gh/cwcblog/picture@main/img/202209111212652-1684494207419-413.jpg)
 
 
 
@@ -2469,7 +2469,7 @@ int main() {
 **示例：**
 
 
-```C++
+```c
 #include <vector>
 
 void printVector(vector<int>& v) {
@@ -2543,7 +2543,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 #include <vector>
 
 void printVector(vector<int>& v) {
@@ -2626,7 +2626,7 @@ int main() {
 **示例：**
 
 
-```C++
+```c
 #include <vector>
 
 void printVector(vector<int>& v) {
@@ -2719,7 +2719,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 #include <vector>
 
 void printVector(vector<int>& v) {
@@ -2814,7 +2814,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 #include <vector>
 
 void test01()
@@ -2885,7 +2885,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 #include <vector>
 
 void printVector(vector<int>& v) {
@@ -2980,7 +2980,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 #include <vector>
 
 void test01()
@@ -3043,7 +3043,7 @@ int main() {
 * deque相对而言，对头部的插入删除速度回比vector快
 * vector访问元素时的速度会比deque快,这和两者内部实现有关
 
-![说明: 2015-11-19_204101](https://raw.githubusercontent.com/cwcblog/picture/main/img/202209111212653.jpg)
+![说明: 2015-11-19_204101](https://cdn.jsdelivr.net/gh/cwcblog/picture@main/img/202209111212653-1684494207419-415.jpg)
 
 
 
@@ -3053,7 +3053,7 @@ deque内部有个**中控器**，维护每段缓冲区中的内容，缓冲区�
 
 中控器维护的是每个缓冲区的地址，使得使用deque时像一片连续的内存空间
 
-![clip_image002-1547547896341](https://raw.githubusercontent.com/cwcblog/picture/main/img/202209111212654.jpg)
+![clip_image002-1547547896341](https://cdn.jsdelivr.net/gh/cwcblog/picture@main/img/202209111212654-1684494207419-417.jpg)
 
 * deque容器的迭代器也是支持随机访问的
 
@@ -3080,7 +3080,7 @@ deque内部有个**中控器**，维护每段缓冲区中的内容，缓冲区�
 
 **示例：**
 
-```C++
+```c
 #include <deque>
 
 void printDeque(const deque<int>& d) 
@@ -3154,7 +3154,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 #include <deque>
 
 void printDeque(const deque<int>& d) 
@@ -3235,7 +3235,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 #include <deque>
 
 void printDeque(const deque<int>& d) 
@@ -3339,7 +3339,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 #include <deque>
 
 void printDeque(const deque<int>& d) 
@@ -3468,7 +3468,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 #include <deque>
 
 void printDeque(const deque<int>& d) 
@@ -3553,7 +3553,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 #include <deque>
 #include <algorithm>
 
@@ -3627,7 +3627,7 @@ int main() {
 
 **示例代码：**
 
-```C++
+```c
 //选手类
 class Person
 {
@@ -3756,7 +3756,7 @@ int main() {
 
 
 
-![说明: 2015-11-15_195707](https://raw.githubusercontent.com/cwcblog/picture/main/img/202209111212655.jpg)
+![说明: 2015-11-15_195707](https://cdn.jsdelivr.net/gh/cwcblog/picture@main/img/202209111212655-1684494207419-419.jpg)
 
 栈中只有顶端的元素才可以被外界使用，因此栈不允许有遍历行为
 
@@ -3768,13 +3768,13 @@ int main() {
 
 生活中的栈：
 
-![img](https://raw.githubusercontent.com/cwcblog/picture/main/img/202209111212656.png)
+![img](https://cdn.jsdelivr.net/gh/cwcblog/picture@main/img/202209111212656-1684494207419-421.png)
 
 
 
 
 
-![img](https://raw.githubusercontent.com/cwcblog/picture/main/img/202209111212657.jpg)
+![img](https://cdn.jsdelivr.net/gh/cwcblog/picture@main/img/202209111212657-1684494207419-423.jpg)
 
 
 
@@ -3810,7 +3810,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 #include <stack>
 
 //栈容器常用接口
@@ -3876,7 +3876,7 @@ int main() {
 
 
 
-![说明: 2015-11-15_214429](https://raw.githubusercontent.com/cwcblog/picture/main/img/202209111212658.jpg)
+![说明: 2015-11-15_214429](https://cdn.jsdelivr.net/gh/cwcblog/picture@main/img/202209111212658-1684494207419-425.jpg)
 
 队列容器允许从一端新增元素，从另一端移除元素
 
@@ -3890,7 +3890,7 @@ int main() {
 
 生活中的队列：
 
-![1547606785041](https://raw.githubusercontent.com/cwcblog/picture/main/img/202209111212659.png)
+![1547606785041](https://cdn.jsdelivr.net/gh/cwcblog/picture@main/img/202209111212659-1684494207419-427.png)
 
 
 
@@ -3931,7 +3931,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 #include <queue>
 #include <string>
 class Person
@@ -4038,7 +4038,7 @@ STL中的链表是一个双向循环链表
 
 
 
-![说明: 2015-11-15_225145](https://raw.githubusercontent.com/cwcblog/picture/main/img/202209111212660.jpg)
+![说明: 2015-11-15_225145](https://cdn.jsdelivr.net/gh/cwcblog/picture@main/img/202209111212660-1684494207419-429.jpg)
 
 由于链表的存储方式并不是连续的内存空间，因此链表list中的迭代器只支持前移和后移，属于**双向迭代器**
 
@@ -4086,7 +4086,7 @@ List有一个重要的性质，插入操作和删除操作都不会造成原有l
 
 **示例：**
 
-```C++
+```c
 #include <list>
 
 void printList(const list<int>& L) {
@@ -4158,7 +4158,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 #include <list>
 
 void printList(const list<int>& L) {
@@ -4275,7 +4275,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 #include <list>
 
 void printList(const list<int>& L) {
@@ -4367,7 +4367,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 #include <list>
 
 void printList(const list<int>& L) {
@@ -4480,7 +4480,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 #include <list>
 
 //数据存取
@@ -4549,7 +4549,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 void printList(const list<int>& L) {
 
 	for (list<int>::const_iterator it = L.begin(); it != L.end(); it++) {
@@ -4620,7 +4620,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 #include <list>
 #include <string>
 class Person {
@@ -4767,7 +4767,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 #include <set>
 
 void printSet(set<int> & s)
@@ -4843,7 +4843,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 #include <set>
 
 void printSet(set<int> & s)
@@ -4964,7 +4964,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 #include <set>
 
 void printSet(set<int> & s)
@@ -5045,7 +5045,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 #include <set>
 
 //查找和统计
@@ -5126,7 +5126,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 #include <set>
 
 //set和multiset区别
@@ -5206,7 +5206,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 #include <string>
 
 //对组创建
@@ -5263,7 +5263,7 @@ int main() {
 
 **示例一**   set存放内置数据类型
 
-```C++
+```c
 #include <set>
 
 class MyCompare 
@@ -5318,7 +5318,7 @@ int main() {
 
 **示例二** set存放自定义数据类型
 
-```C++
+```c
 #include <set>
 #include <string>
 
@@ -5443,7 +5443,7 @@ map和multimap**区别**：
 
 **示例：**
 
-```C++
+```c
 #include <map>
 
 void printMap(map<int,int>&m)
@@ -5515,7 +5515,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 #include <map>
 
 void printMap(map<int,int>&m)
@@ -5619,7 +5619,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 #include <map>
 
 void printMap(map<int,int>&m)
@@ -5705,7 +5705,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 #include <map>
 
 //查找和统计
@@ -5782,7 +5782,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 #include <map>
 
 class MyCompare {
@@ -5862,7 +5862,7 @@ int main() {
 
 **案例代码：**
 
-```C++
+```c
 #include<iostream>
 using namespace std;
 #include <vector>
@@ -6024,7 +6024,7 @@ int main() {
 
 **示例:**
 
-```C++
+```c
 #include <string>
 
 //1、函数对象在使用时，可以像普通函数那样调用, 可以有参数，可以有返回值
@@ -6128,7 +6128,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 #include <vector>
 #include <algorithm>
 
@@ -6183,7 +6183,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 #include <vector>
 #include <algorithm>
 //二元谓词
@@ -6302,7 +6302,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 #include <functional>
 //negate
 void test01()
@@ -6360,7 +6360,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 #include <functional>
 #include <vector>
 #include <algorithm>
@@ -6439,7 +6439,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 #include <vector>
 #include <functional>
 #include <algorithm>
@@ -6543,7 +6543,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 #include <algorithm>
 #include <vector>
 
@@ -6621,7 +6621,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 #include<vector>
 #include<algorithm>
 
@@ -6729,7 +6729,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 #include <algorithm>
 #include <vector>
 #include <string>
@@ -6836,7 +6836,7 @@ void test02() {
 
 **示例：**
 
-```C++
+```c
 #include <algorithm>
 #include <vector>
 #include <string>
@@ -6968,7 +6968,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 #include <algorithm>
 #include <vector>
 
@@ -7032,7 +7032,7 @@ void test01()
 
 **示例：**
 
-```C++
+```c
 #include <algorithm>
 #include <vector>
 
@@ -7102,7 +7102,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 #include <algorithm>
 #include <vector>
 
@@ -7220,7 +7220,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 #include <algorithm>
 #include <vector>
 
@@ -7364,7 +7364,7 @@ int main() {
 
 **示例：**
 
-```c++
+```c
 #include <algorithm>
 #include <vector>
 
@@ -7438,7 +7438,7 @@ int main() {
 
 **示例：**
 
-```c++
+```c
 #include <algorithm>
 #include <vector>
 #include <ctime>
@@ -7521,7 +7521,7 @@ int main() {
 
 **示例：**
 
-```c++
+```c
 #include <algorithm>
 #include <vector>
 
@@ -7597,7 +7597,7 @@ int main() {
 
 **示例：**
 
-```c++
+```c
 #include <algorithm>
 #include <vector>
 
@@ -7690,7 +7690,7 @@ int main() {
 
 **示例：**
 
-```c++
+```c
 #include <algorithm>
 #include <vector>
 
@@ -7769,7 +7769,7 @@ int main() {
 
 **示例：**
 
-```c++
+```c
 #include <algorithm>
 #include <vector>
 
@@ -7854,7 +7854,7 @@ int main() {
 
 **示例：**
 
-```c++
+```c
 #include <algorithm>
 #include <vector>
 
@@ -7939,7 +7939,7 @@ int main() {
 
 **示例：**
 
-```c++
+```c
 #include <algorithm>
 #include <vector>
 
@@ -8045,7 +8045,7 @@ int main() {
 
 **示例：**
 
-```c++
+```c
 #include <numeric>
 #include <vector>
 void test01()
@@ -8098,7 +8098,7 @@ int main() {
 
 **示例：**
 
-```c++
+```c
 #include <numeric>
 #include <vector>
 #include <algorithm>
@@ -8186,7 +8186,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 #include <vector>
 #include <algorithm>
 
@@ -8275,7 +8275,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 #include <vector>
 #include <algorithm>
 
@@ -8358,7 +8358,7 @@ int main() {
 
 **示例：**
 
-```C++
+```c
 #include <vector>
 #include <algorithm>
 

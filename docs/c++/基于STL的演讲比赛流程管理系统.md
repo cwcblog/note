@@ -2,7 +2,7 @@
 
 ## 1、 演讲比赛程序需求
 
-![1548154762048](https://raw.githubusercontent.com/cwcblog/picture/main/img/202210011739207-1684465832396-1-1684465844582-73.png)
+![1548154762048](https://cdn.jsdelivr.net/gh/cwcblog/picture@main/img/202210011739207-1684465832396-1-1684465844582-73-1684466703639-1-1684466716768-109.png)
 
 
 
@@ -25,7 +25,7 @@
 
 ### 1.3 程序效果图：
 
-![1548155966702](https://raw.githubusercontent.com/cwcblog/picture/main/img/202210011739208-1684465832397-2-1684465844582-74.png)
+![1548155966702](https://cdn.jsdelivr.net/gh/cwcblog/picture@main/img/202210011739208-1684465832397-2-1684465844582-74-1684466703639-3-1684466716768-110.png)
 
 
 
@@ -44,13 +44,13 @@
 
 如图：
 
-![1548121881969](https://raw.githubusercontent.com/cwcblog/picture/main/img/202210011739209-1684465832397-3-1684465844582-75.png)
+![1548121881969](https://cdn.jsdelivr.net/gh/cwcblog/picture@main/img/202210011739209-1684465832397-3-1684465844582-75-1684466703640-5-1684466716769-111.png)
 
 
 
 * 填写项目名称以及选取项目路径，点击确定生成项目
 
-![1548122271773](https://raw.githubusercontent.com/cwcblog/picture/main/img/202210011739210-1684465832397-4-1684465844582-76.png)
+![1548122271773](https://cdn.jsdelivr.net/gh/cwcblog/picture@main/img/202210011739210-1684465832397-4-1684465844582-76-1684466703640-7-1684466716769-112.png)
 
 
 
@@ -58,15 +58,13 @@
 
 * 右键源文件，进行添加文件操作
 
-![1548122420253](https://raw.githubusercontent.com/cwcblog/picture/main/img/202210011739211-1684465832397-5-1684465844582-77.png)
+![1548122420253](https://cdn.jsdelivr.net/gh/cwcblog/picture@main/img/202210011739211-1684465832397-5-1684465844582-77-1684466703640-9-1684466716769-113.png)
 
 * 填写文件名称，点击添加
 
-![1548122510869](assets/1548122510869.png)
-
 * 生成文件成功，效果如下图
 
-![1548122619712](https://raw.githubusercontent.com/cwcblog/picture/main/img/202210011739212-1684465832397-6-1684465844582-78.png)
+![1548122619712](https://cdn.jsdelivr.net/gh/cwcblog/picture@main/img/202210011739212-1684465832397-6-1684465844582-78-1684466703640-11-1684466716769-114.png)
 
 
 
@@ -91,7 +89,7 @@
 
 * 在头文件和源文件的文件夹下分别创建speechManager.h 和 speechManager.cpp文件
 
-![1548123402593](https://raw.githubusercontent.com/cwcblog/picture/main/img/202210011739213-1684465832397-7-1684465844582-79.png)
+![1548123402593](https://cdn.jsdelivr.net/gh/cwcblog/picture@main/img/202210011739213-1684465832397-7-1684465844582-79-1684466703641-13-1684466716769-115.png)
 
 
 
@@ -148,7 +146,7 @@ SpeechManager::~SpeechManager()
 
 在管理类speechManager.h中添加成员函数  `void show_Menu();`
 
-![1548123942072](https://raw.githubusercontent.com/cwcblog/picture/main/img/202210011739215-1684465832397-8-1684465844582-80.png)
+![1548123942072](https://cdn.jsdelivr.net/gh/cwcblog/picture@main/img/202210011739215-1684465832397-8-1684465844582-80-1684466703641-15-1684466716769-116.png)
 
  
 
@@ -199,7 +197,7 @@ int main() {
 
 * 运行效果如图：
 
-![1548124599641](https://raw.githubusercontent.com/cwcblog/picture/main/img/202210011738414-1684465832397-9-1684465844582-81.png)
+![1548124599641](https://cdn.jsdelivr.net/gh/cwcblog/picture@main/img/202210011738414-1684465832397-9-1684465844582-81-1684466703641-17-1684466716769-117.png)
 
 * 菜单界面搭建完毕
 
@@ -272,13 +270,13 @@ void SpeechManager::exitSystem()
 
 在main函数分支 0  选项中，调用退出程序的接口
 
-![1548124853576](https://raw.githubusercontent.com/cwcblog/picture/main/img/202210011739216-1684465832397-10-1684465844582-82.png)
+![1548124853576](https://cdn.jsdelivr.net/gh/cwcblog/picture@main/img/202210011739216-1684465832397-10-1684465844582-82-1684466703641-19-1684466716769-118.png)
 
 
 
 运行测试效果如图：
 
-![1548124888578](https://raw.githubusercontent.com/cwcblog/picture/main/img/202210011739217-1684465832397-11-1684465844582-83.png)
+![1548124888578](https://cdn.jsdelivr.net/gh/cwcblog/picture@main/img/202210011739217-1684465832397-11-1684465844582-83-1684466703641-21-1684466716769-119.png)
 
 
 
@@ -446,11 +444,11 @@ for (map<int, Speaker>::iterator it = sm.m_Speaker.begin(); it != sm.m_Speaker.e
 }
 ```
 
-![1548141605742](https://raw.githubusercontent.com/cwcblog/picture/main/img/202210011739218-1684465832397-12-1684465844582-84.png)
+![1548141605742](https://cdn.jsdelivr.net/gh/cwcblog/picture@main/img/202210011739218-1684465832397-12-1684465844582-84-1684466703641-23-1684466716769-120.png)
 
 * 测试效果如图：
 
-![1548141560164](https://raw.githubusercontent.com/cwcblog/picture/main/img/202210011739219-1684465832397-13-1684465844582-85.png)
+![1548141560164](https://cdn.jsdelivr.net/gh/cwcblog/picture@main/img/202210011739219-1684465832397-13-1684465844582-85-1684466703642-25-1684466716769-121.png)
 
 * 测试完毕后，可以将测试代码删除或注释。
 
@@ -552,17 +550,17 @@ void SpeechManager::speechDraw()
 
 * 在startSpeech比赛流程控制的函数中，调用抽签函数
 
-![1548143871202](https://raw.githubusercontent.com/cwcblog/picture/main/img/202210011739220-1684465832397-14-1684465844582-86.png)
+![1548143871202](https://cdn.jsdelivr.net/gh/cwcblog/picture@main/img/202210011739220-1684465832397-14-1684465844582-86-1684466703642-27-1684466716769-122.png)
 
 * 在main函数中，分支1选项中，调用开始比赛的接口
 
-![1548143543475](https://raw.githubusercontent.com/cwcblog/picture/main/img/202210011739221-1684465832398-15-1684465844582-87.png)
+![1548143543475](https://cdn.jsdelivr.net/gh/cwcblog/picture@main/img/202210011739221-1684465832398-15-1684465844582-87-1684466703642-29-1684466716769-123.png)
 
 
 
 * 测试
 
-![1548143610682](https://raw.githubusercontent.com/cwcblog/picture/main/img/202210011739222-1684465832398-16-1684465844582-88.png)
+![1548143610682](https://cdn.jsdelivr.net/gh/cwcblog/picture@main/img/202210011739222-1684465832398-16-1684465844582-88-1684466703642-31-1684466716769-124.png)
 
 
 
@@ -663,13 +661,13 @@ void SpeechManager::speechContest()
 
 * 在startSpeech比赛流程控制的函数中，调用比赛函数
 
-![1548144491984](https://raw.githubusercontent.com/cwcblog/picture/main/img/202210011739223-1684465832398-17-1684465844582-89.png)
+![1548144491984](https://cdn.jsdelivr.net/gh/cwcblog/picture@main/img/202210011739223-1684465832398-17-1684465844582-89-1684466703642-33-1684466716770-125.png)
 
 
 
 * 再次运行代码，测试比赛
 
-![1548144765146](https://raw.githubusercontent.com/cwcblog/picture/main/img/202210011739224-1684465832398-18-1684465844582-90.png)
+![1548144765146](https://cdn.jsdelivr.net/gh/cwcblog/picture@main/img/202210011739224-1684465832398-18-1684465844582-90-1684466703642-35-1684466716770-126.png)
 
 
 
@@ -714,11 +712,11 @@ void SpeechManager::showScore()
 
 * 在startSpeech比赛流程控制的函数中，调用显示比赛分数函数
 
-![1548146903960](https://raw.githubusercontent.com/cwcblog/picture/main/img/202210011739225-1684465832398-19-1684465844582-91.png)
+![1548146903960](https://cdn.jsdelivr.net/gh/cwcblog/picture@main/img/202210011739225-1684465832398-19-1684465844582-91-1684466703642-37-1684466716770-127.png)
 
 * 运行代码，测试效果
 
-![1548146961550](https://raw.githubusercontent.com/cwcblog/picture/main/img/202210011739226-1684465832398-20-1684465844582-92.png)
+![1548146961550](https://cdn.jsdelivr.net/gh/cwcblog/picture@main/img/202210011739226-1684465832398-20-1684465844582-92-1684466703643-39-1684466716770-128.png)
 
 
 
@@ -728,13 +726,13 @@ void SpeechManager::showScore()
 
 * 在startSpeech比赛流程控制的函数中，加入第二轮的流程
 
-![1548148593215](https://raw.githubusercontent.com/cwcblog/picture/main/img/202210011739227-1684465832398-21-1684465844582-93.png)
+![1548148593215](https://cdn.jsdelivr.net/gh/cwcblog/picture@main/img/202210011739227-1684465832398-21-1684465844582-93-1684466703643-41-1684466716770-129.png)
 
 
 
 测试，将整个比赛流程都跑通
 
-![1548148536395](https://raw.githubusercontent.com/cwcblog/picture/main/img/202210011739228-1684465832398-22-1684465844582-94.png)
+![1548148536395](https://cdn.jsdelivr.net/gh/cwcblog/picture@main/img/202210011739228-1684465832398-22-1684465844582-94-1684466703643-43-1684466716770-130.png)
 
 
 
@@ -782,19 +780,19 @@ void SpeechManager::saveRecord()
 
 * 在startSpeech比赛流程控制的函数中，最后调用保存记录分数函数
 
-![1548149937860](https://raw.githubusercontent.com/cwcblog/picture/main/img/202210011739229-1684465832398-23-1684465844582-95.png)
+![1548149937860](https://cdn.jsdelivr.net/gh/cwcblog/picture@main/img/202210011739229-1684465832398-23-1684465844582-95-1684466703643-45-1684466716770-131.png)
 
 
 
 * 测试，整个比赛完毕后记录保存情况
 
-![1548149912863](https://raw.githubusercontent.com/cwcblog/picture/main/img/202210011739230-1684465832398-24-1684465844582-96.png)
+![1548149912863](https://cdn.jsdelivr.net/gh/cwcblog/picture@main/img/202210011739230-1684465832398-24-1684465844582-96-1684466703643-47-1684466716771-132.png)
 
 
 
 利用记事本打开文件 speech.csv，里面保存了前三名选手的编号以及得分
 
-![1548150047975](https://raw.githubusercontent.com/cwcblog/picture/main/img/202210011739231-1684465832398-25-1684465844582-97.png)
+![1548150047975](https://cdn.jsdelivr.net/gh/cwcblog/picture@main/img/202210011739231-1684465832398-25-1684465844582-97-1684466703643-49-1684466716771-133.png)
 
 
 
@@ -891,7 +889,7 @@ void SpeechManager::loadRecord()
 
 * 在SpeechManager构造函数中调用获取往届记录函数
 
-![1548151977242](https://raw.githubusercontent.com/cwcblog/picture/main/img/202210011739232-1684465832398-26-1684465844582-98.png)
+![1548151977242](https://cdn.jsdelivr.net/gh/cwcblog/picture@main/img/202210011739232-1684465832398-26-1684465844582-98-1684466703643-51-1684466716771-134.png)
 
 
 
@@ -929,11 +927,11 @@ void SpeechManager::showRecord()
 
 在main函数分支 2  选项中，调用查看记录的接口
 
-![1548152359604](https://raw.githubusercontent.com/cwcblog/picture/main/img/202210011739233-1684465832398-27-1684465844582-99.png)
+![1548152359604](https://cdn.jsdelivr.net/gh/cwcblog/picture@main/img/202210011739233-1684465832398-27-1684465844582-99-1684466703644-53-1684466716771-135.png)
 
 显示效果如图：（本次测试添加了4条记录）
 
-![1548152394715](https://raw.githubusercontent.com/cwcblog/picture/main/img/202210011739234-1684465832398-28-1684465844582-100.png)
+![1548152394715](https://cdn.jsdelivr.net/gh/cwcblog/picture@main/img/202210011739234-1684465832398-28-1684465844582-100-1684466703644-55-1684466716771-136.png)
 
 
 
@@ -945,7 +943,7 @@ void SpeechManager::showRecord()
 
 解决方式：在showRecord函数中，开始判断文件状态并加以判断
 
-![1548152803116](https://raw.githubusercontent.com/cwcblog/picture/main/img/202210011739235-1684465832398-29-1684465844582-101.png)
+![1548152803116](https://cdn.jsdelivr.net/gh/cwcblog/picture@main/img/202210011739235-1684465832398-29-1684465844582-101-1684466703644-57-1684466716771-137.png)
 
 
 
@@ -953,13 +951,13 @@ void SpeechManager::showRecord()
 
 解决方式：saveRecord中更新文件为空的标志
 
-![1548153005042](https://raw.githubusercontent.com/cwcblog/picture/main/img/202210011739236-1684465832398-30-1684465844582-102.png)
+![1548153005042](https://cdn.jsdelivr.net/gh/cwcblog/picture@main/img/202210011739236-1684465832398-30-1684465844582-102-1684466703644-59-1684466716771-138.png)
 
 3. 比完赛后查不到本届比赛的记录，没有实时更新
 
 解决方式：比赛完毕后，所有数据重置
 
-![1548153319587](https://raw.githubusercontent.com/cwcblog/picture/main/img/202210011739237-1684465832398-31-1684465844582-103.png)
+![1548153319587](https://cdn.jsdelivr.net/gh/cwcblog/picture@main/img/202210011739237-1684465832398-31-1684465844582-103-1684466703644-61-1684466716772-139.png)
 
 
 
@@ -967,7 +965,7 @@ void SpeechManager::showRecord()
 
 解决方式：initSpeech中添加 初始化记录容器
 
-![1548154340974](https://raw.githubusercontent.com/cwcblog/picture/main/img/202210011739238-1684465832398-32-1684465844582-105.png)
+![1548154340974](https://cdn.jsdelivr.net/gh/cwcblog/picture@main/img/202210011739238-1684465832398-32-1684465844582-105-1684466703644-63-1684466716772-140.png)
 
 5. 每次记录都是一样的
 
@@ -981,7 +979,7 @@ srand((unsigned int)time(NULL));
 
 所有bug解决后 测试：
 
-![1548153571603](https://raw.githubusercontent.com/cwcblog/picture/main/img/202210011739239-1684465832398-33-1684465844582-104.png)
+![1548153571603](https://cdn.jsdelivr.net/gh/cwcblog/picture@main/img/202210011739239-1684465832398-33-1684465844582-104-1684466703644-65-1684466716772-141.png)
 
 
 
@@ -1038,15 +1036,15 @@ void SpeechManager::clearRecord()
 
 在main函数分支 3  选项中，调用清空比赛记录的接口
 
-![1548154674242](https://raw.githubusercontent.com/cwcblog/picture/main/img/202210011739240-1684465832398-34-1684465844582-108.png)
+![1548154674242](https://cdn.jsdelivr.net/gh/cwcblog/picture@main/img/202210011739240-1684465832398-34-1684465844582-108-1684466703645-67-1684466716772-142.png)
 
 运行程序，测试清空记录：
 
-![1548154004738](https://raw.githubusercontent.com/cwcblog/picture/main/img/202210011739241-1684465832398-35-1684465844582-106.png)
+![1548154004738](https://cdn.jsdelivr.net/gh/cwcblog/picture@main/img/202210011739241-1684465832398-35-1684465844582-106-1684466703645-69-1684466716772-143.png)
 
 speech.csv中记录也为空
 
-![1548154508831](https://raw.githubusercontent.com/cwcblog/picture/main/img/202210011739242-1684465832398-36-1684465844582-107.png)
+![1548154508831](https://cdn.jsdelivr.net/gh/cwcblog/picture@main/img/202210011739242-1684465832398-36-1684465844582-107-1684466703645-71-1684466716772-144.png)
 
 
 

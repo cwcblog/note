@@ -13,13 +13,14 @@ export default defineConfig({
       {
         text: "语言",
         items: [
-          { text: "c++", link: '/c++/index' },
+          { text: "c++", link: '/语言/c++/index' },
         ],
       },
       {
         text: "算法",
         items: [
-          { text: "acwing", link: '/acwing/Acwing' }
+          { text: "acwing", link: '/算法/acwing/Acwing' },
+          { text: "数据结构", link: '/算法/数据结构/index' },
         ],
       },
     ],
@@ -35,28 +36,34 @@ export default defineConfig({
 
 
     sidebar: {
-      "/c++/": [
+      "/语言": [
         {
           text: "c++",    //标签名字
           collapsible: true,    //是不是可以动态展开
           collapsed: true,      //默认是不是展开
           items: [              //孩子
-            { text: "C++核心编程", link: '/c++/C++核心编程', },
-            { text: "C++提高编程", link: '/c++/C++提高编程', },
-            { text: "通讯录管理系统", link: '/c++/通讯录管理系统', },
-            { text: "职工管理系统", link: '/c++/职工管理系统', },
-            { text: "机房预约系统", link: '/c++/机房预约系统', },
-            { text: "基于STL的演讲比赛流程管理系统", link: '/c++/基于STL的演讲比赛流程管理系统', },
+            { text: "C++核心编程", link: '/语言/c++/C++核心编程', },
+            { text: "C++提高编程", link: '/语言/c++/C++提高编程', },
+            { text: "通讯录管理系统", link: '/语言/c++/通讯录管理系统', },
+            { text: "职工管理系统", link: '/语言/c++/职工管理系统', },
+            { text: "机房预约系统", link: '/语言/c++/机房预约系统', },
+            { text: "基于STL的演讲比赛流程管理系统", link: '/语言/c++/基于STL的演讲比赛流程管理系统', },
           ],
         },
       ],
-      "/acwing/": [
+      "/算法": [
         {
-          text: "acwing",
+          text: "算法",
           collapsible: true,    //是不是可以动态展开
           collapsed: true,      //默认是不是展开
           items: [
-            { text: "acwing", link: '/acwing/Acwing', },
+            { text: "acwing", link: '/算法/acwing/Acwing', },
+            { text: "基础", link: '/算法/数据结构/基础', },
+            { text: "栈和队列", link: '/算法/数据结构/栈和队列', },
+            { text: "树", link: '/算法/数据结构/树', },
+            { text: "图", link: '/算法/数据结构/图', },
+            { text: "图2", link: '/算法/数据结构/图2', },
+            { text: "查找", link: '/算法/数据结构/查找', },
           ]
         }
       ],

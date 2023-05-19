@@ -26,17 +26,17 @@
 
 
 
-![1547105026929](assets/202209111212648.png)
+![1547105026929](https://raw.githubusercontent.com/cwcblog/picture/main/img/202209111212648.png)
 
 
 
 PPT模板：
 
-![1547103297864](assets/202209111212649.png)
+![1547103297864](https://raw.githubusercontent.com/cwcblog/picture/main/img/202209111212649.png)
 
 
 
-![1547103359158](assets/202209111212651.png)
+![1547103359158](https://raw.githubusercontent.com/cwcblog/picture/main/img/202209111212651.png)
 
 
 
@@ -2436,7 +2436,7 @@ int main() {
 
 
 
-![说明: 2015-11-10_151152](assets/202209111212652.jpg)
+![说明: 2015-11-10_151152](https://raw.githubusercontent.com/cwcblog/picture/main/img/202209111212652.jpg)
 
 
 
@@ -3043,7 +3043,7 @@ int main() {
 * deque相对而言，对头部的插入删除速度回比vector快
 * vector访问元素时的速度会比deque快,这和两者内部实现有关
 
-![说明: 2015-11-19_204101](assets/202209111212653.jpg)
+![说明: 2015-11-19_204101](https://raw.githubusercontent.com/cwcblog/picture/main/img/202209111212653.jpg)
 
 
 
@@ -3053,7 +3053,7 @@ deque内部有个**中控器**，维护每段缓冲区中的内容，缓冲区�
 
 中控器维护的是每个缓冲区的地址，使得使用deque时像一片连续的内存空间
 
-![clip_image002-1547547896341](assets/202209111212654.jpg)
+![clip_image002-1547547896341](https://raw.githubusercontent.com/cwcblog/picture/main/img/202209111212654.jpg)
 
 * deque容器的迭代器也是支持随机访问的
 
@@ -3756,7 +3756,7 @@ int main() {
 
 
 
-![说明: 2015-11-15_195707](assets/202209111212655.jpg)
+![说明: 2015-11-15_195707](https://raw.githubusercontent.com/cwcblog/picture/main/img/202209111212655.jpg)
 
 栈中只有顶端的元素才可以被外界使用，因此栈不允许有遍历行为
 
@@ -3768,13 +3768,13 @@ int main() {
 
 生活中的栈：
 
-![img](assets/202209111212656.png)
+![img](https://raw.githubusercontent.com/cwcblog/picture/main/img/202209111212656.png)
 
 
 
 
 
-![img](assets/202209111212657.jpg)
+![img](https://raw.githubusercontent.com/cwcblog/picture/main/img/202209111212657.jpg)
 
 
 
@@ -3876,7 +3876,7 @@ int main() {
 
 
 
-![说明: 2015-11-15_214429](assets/202209111212658.jpg)
+![说明: 2015-11-15_214429](https://raw.githubusercontent.com/cwcblog/picture/main/img/202209111212658.jpg)
 
 队列容器允许从一端新增元素，从另一端移除元素
 
@@ -3890,7 +3890,7 @@ int main() {
 
 生活中的队列：
 
-![1547606785041](assets/202209111212659.png)
+![1547606785041](https://raw.githubusercontent.com/cwcblog/picture/main/img/202209111212659.png)
 
 
 
@@ -4038,7 +4038,7 @@ STL中的链表是一个双向循环链表
 
 
 
-![说明: 2015-11-15_225145](assets/202209111212660.jpg)
+![说明: 2015-11-15_225145](https://raw.githubusercontent.com/cwcblog/picture/main/img/202209111212660.jpg)
 
 由于链表的存储方式并不是连续的内存空间，因此链表list中的迭代器只支持前移和后移，属于**双向迭代器**
 

@@ -209,7 +209,7 @@ int main()
 
 注意找右边界时为 **mid = (l+r+1) >> 1**
 
-**![dce896653bd1386785664f9e8583cff](assets/dce896653bd1386785664f9e8583cff.jpg)**
+**![dce896653bd1386785664f9e8583cff](https://raw.githubusercontent.com/cwcblog/picture/main/img/dce896653bd1386785664f9e8583cff.jpg)**
 
 ```c
 /*

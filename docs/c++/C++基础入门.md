@@ -15,21 +15,21 @@
 
 ​	Visual Studio是我们用来编写C++程序的主要工具，我们先将它打开
 
-![1541383178746](assets/202209111214207.png)
+![1541383178746](E:\note\docs\c++\assets\202209111214207-1684464895560-1.png)
 
 
 
-![1541384366413](https://gitee.com/newcwc/picture/raw/master/image/202209111214208.png)
+![1541384366413](E:\note\docs\c++\assets\202209111214208-1684464895561-3.png)
 
 #### 1.1.2 创建文件
 
 右键源文件，选择添加->新建项
 
-![1541383817248](https://gitee.com/newcwc/picture/raw/master/image/202209111214209.png)
+![1541383817248](E:\note\docs\c++\assets\202209111214209-1684464895561-5.png)
 
 给C++文件起个名称，然后点击添加即可。
 
-![1541384140042](https://gitee.com/newcwc/picture/raw/master/image/202209111214210.png)
+![1541384140042](E:\note\docs\c++\assets\202209111214210-1684464895561-7.png)
 
 
 
@@ -51,7 +51,7 @@ int main() {
 
 #### 1.1.4 运行程序
 
-![1541384818688](https://gitee.com/newcwc/picture/raw/master/image/202209111214211.png)
+![1541384818688](E:\note\docs\c++\assets\202209111214211-1684464895561-9.png)
 
 
 
@@ -1101,7 +1101,7 @@ if语句的三种形式
 
 1. 单行格式if语句：`if(条件){ 条件满足执行的语句 }`
 
-   ![img](https://gitee.com/newcwc/picture/raw/master/image/202209111214212.png)
+   ![img](E:\note\docs\c++\assets\202209111214212-1684464895562-11.png)
 
    示例：
 
@@ -1143,7 +1143,7 @@ if语句的三种形式
 
 2. 多行格式if语句：`if(条件){ 条件满足执行的语句 }else{ 条件不满足执行的语句 };`
 
-![img](https://gitee.com/newcwc/picture/raw/master/image/202209111214213.png)
+![img](E:\note\docs\c++\assets\202209111214213-1684464895562-13.png)
 
 
 
@@ -1185,7 +1185,7 @@ int main() {
 
 3. 多条件的if语句：`if(条件1){ 条件1满足执行的语句 }else if(条件2){条件2满足执行的语句}... else{ 都不满足执行的语句}`
 
-![img](https://gitee.com/newcwc/picture/raw/master/image/202209111214214.png)
+![img](E:\note\docs\c++\assets\202209111214214.png)
 
 
 
@@ -1302,7 +1302,7 @@ int main() {
 
 **练习案例：** 三只小猪称体重
 
-有三只小猪ABC，请分别输入三只小猪的体重，并且判断哪只小猪最重？![三只小猪](https://gitee.com/newcwc/picture/raw/master/image/202209111214215.jpg)
+有三只小猪ABC，请分别输入三只小猪的体重，并且判断哪只小猪最重？![三只小猪](E:\note\docs\c++\assets\202209111214215.jpg)
 
 
 
@@ -1460,7 +1460,7 @@ int main() {
 
 **解释：**==只要循环条件的结果为真，就执行循环语句==
 
-![img](https://gitee.com/newcwc/picture/raw/master/image/202209111214216.png)
+![img](E:\note\docs\c++\assets\202209111214216.png)
 
 
 
@@ -1504,7 +1504,7 @@ int main() {
 
 
 
-![猜数字](https://gitee.com/newcwc/picture/raw/master/image/202209111214217.jpg)
+![猜数字](E:\note\docs\c++\assets\202209111214217-1684464895562-18.jpg)
 
 
 
@@ -1530,7 +1530,7 @@ int main() {
 
 **注意：**与while的区别在于==do...while会先执行一次循环语句==，再判断循环条件
 
-![img](https://gitee.com/newcwc/picture/raw/master/image/202209111214218.png)
+![img](E:\note\docs\c++\assets\202209111214218-1684464895562-20.png)
 
 
 
@@ -1631,7 +1631,7 @@ int main() {
 
 **详解：**
 
-![1541673704101](https://gitee.com/newcwc/picture/raw/master/image/202209111214219.png)
+![1541673704101](E:\note\docs\c++\assets\202209111214219-1684464895562-22.png)
 
 
 
@@ -1653,7 +1653,7 @@ int main() {
 
 案例描述：从1开始数到数字100， 如果数字个位含有7，或者数字十位含有7，或者该数字是7的倍数，我们打印敲桌子，其余数字直接打印输出。
 
-![timg](https://gitee.com/newcwc/picture/raw/master/image/202209111214220.gif)
+![timg](E:\note\docs\c++\assets\202209111214220.gif)
 
 
 
@@ -1673,7 +1673,7 @@ int main() {
 
 例如我们想在屏幕中打印如下图片，就需要利用嵌套循环
 
-![1541676003486](https://gitee.com/newcwc/picture/raw/master/image/202209111214221.png)
+![1541676003486](E:\note\docs\c++\assets\202209111214221-1684464895563-25.png)
 
 
 
@@ -1722,7 +1722,7 @@ int main() {
 
 案例描述：利用嵌套循环，实现九九乘法表
 
-![0006018857256120_b](https://gitee.com/newcwc/picture/raw/master/image/202209111214222.jpg)
+![0006018857256120_b](E:\note\docs\c++\assets\202209111214222.jpg)
 
 
 
@@ -1950,7 +1950,7 @@ int main() {
 
 
 
-![1541748375356](https://gitee.com/newcwc/picture/raw/master/image/202209111214223.png)
+![1541748375356](E:\note\docs\c++\assets\202209111214223.png)
 
 
 
@@ -2142,7 +2142,7 @@ int main() {
 2. 对每一对相邻元素做同样的工作，执行完毕后，找到第一个最大值。
 3. 重复以上的步骤，每次比较次数-1，直到不需要比较
 
-![1541905327273](https://gitee.com/newcwc/picture/raw/master/image/202209111214224.png)
+![1541905327273](E:\note\docs\c++\assets\202209111214224.png)
 
 **示例：** 将数组 { 4,2,8,0,5,7,1,3,9 } 进行升序排序
 
@@ -2187,7 +2187,7 @@ int main() {
 
 二维数组就是在一维数组上，多加一个维度。
 
-![1541905559138](https://gitee.com/newcwc/picture/raw/master/image/202209111214225.png)
+![1541905559138](E:\note\docs\c++\assets\202209111214225.png)
 
 #### 5.3.1 二维数组定义方式
 

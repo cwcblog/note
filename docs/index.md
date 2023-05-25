@@ -5,17 +5,17 @@ layout: home
 hero:
   name: "My Note"
   text: "note"
-  tagline: My great project tagline
+  tagline: My first web
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Onedrive Share
+      link: https://chenwc-my.sharepoint.com/:f:/g/personal/qq2021694476_chenwc_onmicrosoft_com/EiKQkBrsLvFNvTGLogcwGSMBESsEDaypxGRsRQqisFPs6Q?e=fNboN8
     - theme: alt
       text: API Examples
       link: /api-examples
 
 features:
-  - title: Feature A
+  - title: Onedrive Share
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Feature B
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit

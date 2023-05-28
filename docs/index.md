@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: Onedrive Share
-      link: https://chenwc-my.sharepoint.com/:f:/g/personal/qq2021694476_chenwc_onmicrosoft_com/EiKQkBrsLvFNvTGLogcwGSMBESsEDaypxGRsRQqisFPs6Q?e=fNboN8
+      link: https://chenwc-my.sharepoint.com/:f:/g/personal/cwc_cwcn_eu_org/Et23xhafbvFDswjLY_3QIv8B4bpsZxybm4Qsi_tbWVSndQ?e=eoo2za
     - theme: alt
       text: API Examples
       link: /api-examples
